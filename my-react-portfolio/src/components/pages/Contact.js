@@ -1,8 +1,10 @@
 import React from 'react'
 import '../../App.css';
+import ContactMe from '../ContactMe';
+
 
 export default function Contact () {
     return (
-        <h1 className="contact">Contact</h1>
+        <ContactMe />
     )
 }

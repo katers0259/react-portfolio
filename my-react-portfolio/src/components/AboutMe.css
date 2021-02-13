@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding: 20px;
     background: #fff;
   }
   
@@ -11,8 +11,8 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 800px;
-    width: 400px;
+    max-width: 1120px;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -21,7 +21,7 @@
     margin: 50px 0 45px;
   }
   
-  .cards-items {
+  .cards_items {
     margin-bottom: 24px;
     
   }
@@ -57,7 +57,19 @@
     animation-duration: 2s;
   }
   
-
+  /* .cards__item__pic-wrap::after {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #8eb4ae;
+    box-sizing: border-box;
+  } */
   
   .cards__item__img {
     position: absolute;
@@ -66,9 +78,9 @@
     bottom: 0;
     left: 0;
     display: block;
-    width: 400px;
+    width: 500px;
     max-width: 100%;
-    height: 400px;
+    height: 500px;
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;

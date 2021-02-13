@@ -57,24 +57,7 @@ function Navbar() {
                         </Link>
                         
                         </li>
-                        <li className="nav-item">
-                            <a href="https://github.com/katers0259" target="_blank"  className='nav-links' onClick={closeMobileMenu}>
-                                <i class="fab fa-github" />
-                            </a>
-
-                        </li>
-                        <li className="nav-item">
-                            <a href="https://www.linkedin.com/in/kaitlyn-branagan-a119891b1/" target="_blank" className='nav-links' onClick={closeMobileMenu}>
-                                <i class="fab fa-linkedin-in" />
-                            </a>
-
-                        </li>
-                        <li className="nav-item">
-                            <a href="https://codepen.io/katers0259" target="_blank" className='nav-links' onClick={closeMobileMenu}>
-                                <i class="fab fa-codepen" />
-                            </a>
-
-                        </li>
+                       
                         <li className="nav-item">
                             <a href="mailto:kaitlynbranagan@gmail.com"  className='nav-links' onClick={closeMobileMenu}>
                                 kaitlynbranagan@gmail.com
@@ -84,7 +67,7 @@ function Navbar() {
 
 
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Click ME</Button>}
+                    {/* {button && <Button buttonStyle='btn--outline'>Click ME</Button>} */}
 
                 </div>
 
