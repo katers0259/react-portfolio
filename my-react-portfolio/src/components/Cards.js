@@ -5,7 +5,7 @@ import './Cards.css';
 function Cards() {
     return (
         <div className="cards">
-            <h1>projects</h1>
+            <h1>See My Work</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
@@ -25,8 +25,7 @@ function Cards() {
                         label="Random Password Generator"
                         path="/projects"
                         />
-                        </ul>
-                        <ul className="cards__items">
+                      
                         <CardItem 
                         src="https://res.cloudinary.com/dqtnonoqg/image/upload/v1610427708/macrame2_arp2gh.png"
                         text="Macrame Madness, is a site that you can upload photos and designs of macrame to share with other enthusiats, you are presented with a 
@@ -37,7 +36,8 @@ function Cards() {
                         path="/projects"
                         />
                         
-                        
+                        </ul>
+                        <ul className="cards__items">
                         <CardItem 
                         src="https://res.cloudinary.com/dqtnonoqg/image/upload/v1610427708/weather_dashboard_ezpjnq.png"
                         text="This weather app allows the user to input any city, and see the current weather, and also the 5 day forecast.
@@ -45,8 +45,7 @@ function Cards() {
                         label="Weather Dashboard"
                         path="/projects"
                         />
-                        </ul>
-                        <ul className="cards__items">
+                       
                           <CardItem 
                         src="https://res.cloudinary.com/dqtnonoqg/image/upload/v1610427709/search_cl9smp.png"
                         text="Pick your Pet, uses API calls to a petfinder API, that allows you to search for dogs or cats with specifications that 
