@@ -7,7 +7,7 @@ import '../App.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src="./videos/Pexels Videos 1321208.mp4" autoPlay loop muted />
+            <video src="https://res.cloudinary.com/dqtnonoqg/video/upload/v1613200421/Pexels_Videos_1321208_xol8an.mp4" autoPlay loop muted />
             <h1>Kaitlyn Branagan</h1>
             <p>Full Stack Web Developer</p>
             <div className="hero-btns">
