@@ -1,0 +1,30 @@
+.fab {
+    margin: 5px;
+    font-size: 35px;
+    color: #698a6b;
+    align-items: center;
+    
+  }
+  
+  .fab:hover{
+      color: #000;
+  }
+
+.fas-file {
+    margin: 5px;
+    font-size: 35px;
+    color: #698a6b;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+a:link {
+    text-decoration: none;
+    font-size: 25px;
+    color: #698a6b;
+    align-items: center;
+}
+a:hover {
+    color: #000;
+}
