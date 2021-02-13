@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
+
 import './Navbar.css';
 
 function Navbar() {
@@ -56,27 +57,27 @@ function Navbar() {
 
                         </li>
                         <li className="nav-item">
-                            <Link to='/github' className='nav-links' onClick={closeMobileMenu}>
+                            <a href="https://github.com/katers0259" target="_blank"  className='nav-links' onClick={closeMobileMenu}>
                                 <i class="fab fa-github" />
-                            </Link>
+                            </a>
 
                         </li>
                         <li className="nav-item">
-                            <Link to='/linkedin' className='nav-links' onClick={closeMobileMenu}>
+                            <a href="https://www.linkedin.com/in/kaitlyn-branagan-a119891b1/" target="_blank" className='nav-links' onClick={closeMobileMenu}>
                                 <i class="fab fa-linkedin-in" />
-                            </Link>
+                            </a>
 
                         </li>
                         <li className="nav-item">
-                            <Link to='/codepen' className='nav-links' onClick={closeMobileMenu}>
+                            <a href="https://codepen.io/katers0259" target="_blank" className='nav-links' onClick={closeMobileMenu}>
                                 <i class="fab fa-codepen" />
-                            </Link>
+                            </a>
 
                         </li>
                         <li className="nav-item">
-                            <Link to='/codepen' className='nav-links' onClick={closeMobileMenu}>
-                                <i class="far fa-envelope" />
-                            </Link>
+                            <a href="mailto:kaitlynbranagan@gmail.com"  className='nav-links' onClick={closeMobileMenu}>
+                                kaitlynbranagan@gmail.com
+                            </a>
 
                         </li>
 
