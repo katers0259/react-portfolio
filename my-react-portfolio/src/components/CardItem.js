@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-
+import Links from './Links'
 import './Cards.css';
 
 
@@ -20,7 +20,8 @@ function CardItem(props) {
                                     <h5 className="cards__item__text"></h5>
                                     <div className="cards__item__info">
                                     {props.text}
-                                    <a href={props.path} classname="link">Repo</a>
+                                    <Links />
+                                    
                                     
                                 </div>
                             </Link>
