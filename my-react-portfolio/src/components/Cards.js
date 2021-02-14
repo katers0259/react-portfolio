@@ -1,8 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import CardItem from './CardItem'
 import './Cards.css';
 
+
 function Cards() {
+
+
+
     return (
         <div className="cards">
             <h1>See My Work</h1>
@@ -16,7 +21,9 @@ function Cards() {
                         Languages used: Node.js, Javascript, HTML, CSS"
                         label="Employee Tracker"
                         path="/projects"
-                        />
+                        >
+                                
+                            </CardItem>
                         <CardItem 
                         src="https://res.cloudinary.com/dqtnonoqg/image/upload/v1610427708/passgenerator_smhmmz.png"
                         text="This is a random password generator app, that can help you create passwords based on what you select for your
@@ -24,6 +31,7 @@ function Cards() {
                         Languages used: HTML, CSS, Javascript"
                         label="Random Password Generator"
                         path="/projects"
+                        link=""
                         />
                       
                         <CardItem 
