@@ -47,7 +47,7 @@
   }
   
   .cards__item__pic-wrap {
-    position: relative;
+    position: center;
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
@@ -56,6 +56,13 @@
   .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
+  }
+
+  .link {
+    
+    margin: 20px 25px;
+    color: #698a6b;
+
   }
 /*   
   .cards__item__pic-wrap::after {
@@ -93,6 +100,7 @@
   
   .cards__item__info {
     padding: 20px 30px 30px;
+    color: #252e48;
   }
   
   .cards__item__text {
