@@ -3,6 +3,7 @@ This is my portfolio using React.
 
 # Links
 https://github.com/katers0259/react-portfolio
+https://katers0259.github.io/react-portfolio/
 
 # Images
 ![image](https://user-images.githubusercontent.com/69743567/107865735-0ca74200-6e27-11eb-9b08-7c3b32101c8b.png)
