@@ -1,17 +1,18 @@
 import React from 'react'
-
+import Col from 'react-bootstrap/Col'
 import ContactMeCard from './ContactMeCard';
+import Row from 'react-bootstrap/Row';
 import './ContactMe.css';
 
 function ContactMe() {
     return (
         <>
             <div>
+            <Row className="justify-content-center">
+                            <Col lg="auto">
                 <div className="cards">
                     <h1>Get In Touch</h1>
-                    <div className="cards__container">
-                        <div className="cards__wrapper">
-                            <ul className="cards__items">
+                   
                                 <ContactMeCard>
                                     <div className="cards">
                                         <a href="mailto:kaitlynbranagan@gmail.com">kaitlynbranagan@gmail.com</a>
@@ -44,10 +45,10 @@ function ContactMe() {
                                 </ContactMeCard>
 
 
-                            </ul>
-                        </div>
-                    </div>
+                       
                 </div>
+                </Col>
+                </Row>
             </div>
 
         </>

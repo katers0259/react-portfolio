@@ -1,5 +1,12 @@
+body {
+    align-items: center;
+    
+}
+
+
+
 .fab {
-    margin: 5px;
+    margin: 10px;
     font-size: 35px;
     color: #698a6b;
     align-items: center;
@@ -28,3 +35,4 @@ a:link {
 a:hover {
     color: #000;
 }
+
