@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
     background: #fff;
+ 
   }
   
   h1 {
@@ -10,8 +11,8 @@
   
   .cards__container {
     display: flex;
-    flex-flow: column;
-    align-items: center;
+    flex-flow: row;
+    align-items:center;
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
@@ -20,6 +21,7 @@
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    flex: row;
   }
   
   .cards__items {
