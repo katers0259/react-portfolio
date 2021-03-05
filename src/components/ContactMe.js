@@ -38,7 +38,7 @@ function ContactMe() {
                                         </a>
                                         </div>
                                         <div className="cards resume">
-                                        <a href="https://drive.google.com/file/d/1QcubR8-_WiX1CtYaMo0wdqjN9CIfRF7w/view?usp=sharing" download >
+                                        <a href="https://drive.google.com/file/d/1rfwDxBN-k3eoY5In2eagaZ727YIflXea/view?usp=sharing" download >
                                         <i class="fas fa-file"></i>Download My Resume Here
                                         </a>
                                         </div>
