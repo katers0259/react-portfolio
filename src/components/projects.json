@@ -1,13 +1,13 @@
 [
     {
       "id":1,
-      "title": "Who is on your team?",
-      "des": "This is a Node.js file that when run creates a html doc that displays all of your teammates and their respective information.",
+      "title": "PIXI Pics",
+      "des": "Pixi is revolutionizing the digital photo market, think of what itunes did for the music industry.",
   
-      "tech": "Javascript, HTML, CSS, API, Node.js",
-      "img": "https://res.cloudinary.com/dqtnonoqg/image/upload/v1610427708/my_team_jjzhgb.png",
+      "tech": "Javascript, React, Passport, AWS, Stripe, TailwindCss",
+      "img": "https://pixi-pics.herokuapp.com/",
       
-      "repo": "https://github.com/katers0259/WhoIsOnYourTeam"
+      "repo": "https://github.com/ajlaursen/Pixi"
     },
     {
       "id":2,
