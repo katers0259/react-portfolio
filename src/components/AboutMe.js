@@ -30,14 +30,14 @@ export default function AboutMe() {
                             
                                 <li class="list-dot-remove"><i class="fab fa-html5"> HTML</i></li>
                                 <li class="list-dot-remove"><i class="fab fa-css3-alt"> CSS</i></li>
-                                <li class="list-dot-remove">Tailwind CSS</li>
+                                <li class="list-dot-remove"><i class="fab"> Shopify Liquid </i></li>
                                 <li class="list-dot-remove"><i class="fab fa-node-js"> Node JS</i></li>
                                 <li class="list-dot-remove"><i class="fas fa-database"> My SQL, MongoDB</i></li>
                                 <li class="list-dot-remove"><i class="fab fa-react"> React</i></li>
                                 <li class="list-dot-remove"> Handlebars.js</li>
                                 <li class="list-dot-remove"> Express.js</li>
                                 <li class="list-dot-remove"><i class="fab fa-js"> Javascript, JQuery</i></li>
-      
+                                <li class="list-dot-remove">Tailwind CSS</li>
                         </div>
                         <div className="cards">
                             <h2>Skills</h2>

@@ -33,7 +33,9 @@
     margin-left: 0.5rem;
     font-size: 1.8rem;
   }
-  
+  .fa-dragon:hover {
+   color:#fff;
+  }
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -60,6 +62,7 @@
   }
   
   .nav-links:hover {
+    color: #fff;
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
   }
@@ -94,7 +97,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: #fff;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;

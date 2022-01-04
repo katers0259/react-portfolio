@@ -3,6 +3,13 @@
     background: #fff;
  
   }
+  .container {
+min-width: fit-content;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin:20px auto;
+  }
   
   h1 {
     text-align: center;
@@ -11,14 +18,11 @@
   
   .cards__container {
     align-items:center;
-    max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
+    margin: 0 5px 0 5px;
   }
 
   .cards__wrapper {
-    position: relative;
-    margin: 50px 0 45px;
+    margin-top:50px;
     flex: row;
   }
   

@@ -1,24 +1,23 @@
 [
     {
-      "id":1,
+      "id":2,
       "title": "PIXI Pics",
       "des": "Pixi is revolutionizing the digital photo market, think of what itunes did for the music industry.",
   
       "tech": "Javascript, React, Passport, AWS, Stripe, TailwindCss",
-      "img": "https://pixi-pics.herokuapp.com/",
-      
+      "img": "https://res.cloudinary.com/dqtnonoqg/image/upload/v1615523748/pixi_mb63dl.png",
+      "liveLink":"https://www.pixi.pics/",
       "repo": "https://github.com/ajlaursen/Pixi"
     },
     {
-      "id":2,
-      "title": "Password Generator",
+      "id":1,
+      "title": "HydroJug Wholesale Landing Page",
       "des":
-        "This is a random password generator app, that can help you create passwords based on what you select for your preferences i.e length, special characters, etc.",
-     
-      "tech": " HTML, CSS, Javascript",
-      "img": "https://res.cloudinary.com/dqtnonoqg/image/upload/v1610427708/passgenerator_smhmmz.png",
-      "liveLink": "https://katers0259.github.io/passgen/",
-      "repo": "https://github.com/katers0259/passgen"
+            "Landing page with login portal and wholsale locator for wholesale customers, or customers looking for places to purchase instore",     
+      "tech": " HTML, CSS, Javascript, Shopify Liquid, Goodle Maps",
+      "img": "https://res.cloudinary.com/dqtnonoqg/image/upload/v1641320749/Screen_Shot_2022-01-04_at_11.24.26_AM_sgojud.png",
+      "liveLink": "https://www.thehydrojug.com/pages/wholesale-landing-page"
+
     },
     {
       "id": 3,
@@ -33,38 +32,47 @@
     },
     {
       "id": 4,
-      "title": "Weather Dashboard",
+      "title": "HydroJug Product Page",
       "des":
-        "This weather app allows the user to input any city, and see the current weather, and also the 5 day forecast.",
+        "Product Information page. Displays photos, price product information, upsells and reviews. aslo add to cart functionality and swatches if there are multiple color options",
      
-      "tech": "HTML, CSS, Javascript, API",
-      "img": "https://res.cloudinary.com/dqtnonoqg/image/upload/v1610427708/weather_dashboard_ezpjnq.png",
-      "liveLink": "https://katers0259.github.io/BranaganWeatherDashboard/",
-      "repo": "https://github.com/katers0259/BranaganWeatherDashboard"
+      "tech": "HTML, CSS, Javascript, API, Shopiy Liquid",
+      "img": "https://res.cloudinary.com/dqtnonoqg/image/upload/v1641321179/Screen_Shot_2022-01-04_at_11.32.47_AM_fgv8we.png",
+      "liveLink": "https://www.thehydrojug.com/collections/all-products/products/splatter-pro-collection?variant=39362942238777"
+      
     },
     {
       "id": 5,
-      "title": "Pick Your Pet",
+      "title": "HydroJug Product Collection",
       "des":
-        "Pick your Pet, uses API calls to a petfinder API, that allows you to search for dogs or cats with specifications that you select and then displays those animals that are available for adoption.",
+        "This page display all the products in a collection also has a quick add button for a better customer experience.",
+      "tech": " HTML, CSS, Javascript, API, Shopify Liquid",
+      "img": "https://res.cloudinary.com/dqtnonoqg/image/upload/v1641321839/Screen_Shot_2022-01-04_at_11.43.50_AM_ahe1gq.png",
+      "liveLink": "https://www.thehydrojug.com/collections/all-products"
       
-      "tech": " HTML, CSS, Javascript, API,",
-      "img": "https://res.cloudinary.com/dqtnonoqg/image/upload/v1610427709/search_cl9smp.png",
-      "liveLink": "https://katers0259.github.io/Pick-your-pet/",
-      "repo": "https://github.com/katers0259/Pick-your-pet"
     },
     {
       "id": 6,
-      "title": "Fitness Tracker",
+      "title": "HydroJug About Us Page",
       "des":
-        "This workout fitness tracker lets the user input workouts, and tracks the specifications on a graph and displays this to the user on their personal dashboard.",
+        "The About Us page for hydrojug features currrent employees , history about the company as well as featured articles sme fun facts and our linkedin",
      
-      "tech": "HTML, CSS, Javascript, MongoDB Atlas, Heroku",
-      "img": "https://res.cloudinary.com/dqtnonoqg/image/upload/v1613202799/workout_jvm7ph.png",
-      "liveLink": "https://warm-fjord-24002.herokuapp.com/",
-      "repo": "https://github.com/katers0259/Fitness-Whole-App"
+      "tech": "HTML, CSS, Javascript, Shopify Liquid, Flip Library, Swiper Library",
+      "img": "https://res.cloudinary.com/dqtnonoqg/image/upload/v1641322012/Screen_Shot_2022-01-04_at_11.46.42_AM_ivlzax.png",
+      "liveLink": "https://www.thehydrojug.com/pages/our-story"
+ 
+    },
+    {
+      "id": 7,
+      "title": "HydroJug Brand Ambassador",
+      "des":
+        "A Landing Page used for informatioin about signing up to become a brand ambassador",
+     
+      "tech": "HTML, CSS, Javascript, Shopify Liquid",
+      "img": "  https://res.cloudinary.com/dqtnonoqg/image/upload/v1641322824/Screen_Shot_2022-01-04_at_12.00.16_PM_biojpx.png",
+      "liveLink": "https://www.thehydrojug.com/pages/brand-ambassadors-fiftydev"
+ 
     }
    
   ]
-  
  
