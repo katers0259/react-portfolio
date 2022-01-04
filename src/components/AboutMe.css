@@ -7,6 +7,19 @@
     text-align: center;
   }
   
+.about-me{
+  width: 92%;
+  margin: 0 25px 0 36px;
+}
+
+.list-display{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
   .cards-container {
     display: flex;
     flex-flow: column;
@@ -48,8 +61,9 @@
   .cards__item__pic-wrap {
     position: relative;
     width: 100%;
-    padding-top: 67%;
+    padding-top: 0;
     overflow: hidden;
+    max-height:300px;
   }
   
   .fade-img {
@@ -100,6 +114,11 @@
     line-height: 24px;
   }
   
+  .list-dot-remove{
+   display: block ;
+
+  }
+
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;

@@ -10,12 +10,13 @@ function Projects() {
     return (
         <div>
             <h1>See My Work</h1>
+            <div className="container">
             {projects.map(result => {
                 return(
                     
-                    <Container>
-                        <Row className="justify-content-center">
-                            <Col lg="auto">
+                    
+                        
+                            
                     <Cards 
                     key={result.id}
                     title={result.title}
@@ -24,12 +25,12 @@ function Projects() {
                     repo={result.repo}
                     liveLink={result.liveLink}
                     />
-                    </Col>
-                    </Row>
-                    </Container>
+                    
+                    
+                    
                 )
             })}
-            
+            </div>
         </div>
     )
 }
