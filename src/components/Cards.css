@@ -3,13 +3,18 @@
     background: #fff;
  
   }
-  .container {
-min-width: fit-content;
-display:flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin:20px auto;
+  .card {
+    width:30%;
   }
+
+  .container {
+  display: inline-grid;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 20px auto;
+  align-items: stretch;
+  align-content: center;
+}
   
   h1 {
     text-align: center;
@@ -129,4 +134,17 @@ margin:20px auto;
     .cards__item {
       margin-bottom: 2rem;
     }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .card {
+      width:100%;
+    }
+    .container {
+      min-width: fit-content;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin:20px auto;
+        }
   }

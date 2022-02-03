@@ -14,7 +14,7 @@ function Cards(props) {
         <div className="cards__container">
             <div className="cards__wrapper">
                 <div className="cards__items">
-        <Card style={{ width: '18rem' }}>
+        <Card >
   <Card.Img variant="top" src={props.img}  />
   <Card.Body>
     <Card.Title>{props.title}</Card.Title>

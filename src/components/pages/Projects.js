@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 function Projects() {
     return (
         <div>
-            <h1>See My Work</h1>
+            <h1 class="skills">See My Work</h1>
             <div className="container">
             {projects.map(result => {
                 return(

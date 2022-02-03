@@ -2,8 +2,14 @@ body {
     align-items: center;
     
 }
-
-
+.social-icons{
+    border:1px solid #81a884;
+    padding:3px;
+}
+.social-icons:hover{
+    border:1px solid #000;
+    padding:3px;
+}
 
 .fab {
     margin: 10px;
@@ -25,6 +31,9 @@ body {
     text-decoration: none;
 }
 
+.fa-file{
+    padding:3px;
+}
 
 a:link {
     text-decoration: none;
@@ -32,6 +41,19 @@ a:link {
     align-items: center;
 }
 a:hover {
-    color: #fff;
+    color: #698a6b;
 }
+@media only screen and (max-width: 768px) {
+.contact-info{
+overflow-x: hidden;
+width:100%;
+}
+.fab {
+    margin: 5px;
+    font-size: 35px;
+    color: #698a6b;
+    align-items: center;
+    
+  }
 
+}
